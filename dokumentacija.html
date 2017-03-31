@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dokumentacija</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Gabriel Ilić">
+        <meta name="keywords" content="WebDiP, projekt, režije, HTML, CSS, Javascript, PHP">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Sustav koji omogućava korisnicima pregled računa svojih režija">
+        <link href="css/dizajn.css" rel="stylesheet" type="text/css" media="screen">
+    </head>
+    <body>
+        <header>
+            <h1>Dokumentacija</h1>
+            <p>Projekt režije</p>
+            <div id="button_container">
+                    <a href='prijava.php'><span class='prij_reg_odj'>Prijava</span></a>
+                    <a href='registracija.php'><span class='prij_reg_odj'>Registracija</span></a>
+            </div>
+        </header>
+        <div id="container">
+            <nav>
+                <div id="nav">
+                    <ul>
+                        <li><a href="index.php">Početna</a></li>
+                        <li><a href="privatno/korisnici.php">Ispis korisnika</a></li>
+                        <li><a href="neregistrirani_korisnik.php">Popis ustanova</a></li>
+                        <li><a href="dokumentacija.html">Dokumentacija</a></li>
+                        <li><a href="o_autoru.html">O autoru</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <section>
+                <div class="blok1" style="text-align: justify">
+                    <h2>Dokumentacija</h2>
+                    <h3>Opis projektnog zadatka</h3>
+                    <p>Projektni zadatak bio je izraditi sustav koji omogućava korisnicima pregled nad računima
+                    svojih režija. U sustavu aktivno sudjeluju administrator, moderator (zaposlenik) i registrirani
+                    korisnik (potrošač). Administrator je zadužen za kreiranje ustanova i dodjelu moderatora za
+                    ustanove, pri čemu definira i adrese poslovnica za svaku od ustanova. Moderator nadgleda ustanovu
+                    te određuje kategorije očitavanja za pripadajuću ustanovu. Također ima kontrolu nad korisničkim
+                    rezervacijama očitavanja i žalbama korisnika, a za prihvaćene rezervacije ili žalbe može izdati
+                    račun. Registrirani korisnik može rezervirati očitavanje potrošnje, pregledavati račune te podnijeti
+                    žalbu za određeni račun.</p>
+                    <h3>Opis projektnog rješenja</h3>
+                    <p>Projektnom zadatku sam pristupao na način da sam prvo realizirao funkcionalnosti vezane uz
+                    registraciju i prijavu korisnika. U međuvremenu sam se odlučio za korištenje Smarty sustava
+                    predložaka, budući da znatno olakšavaju rad razdvajajući programsku logiku od prezentacije. Nakon
+                    realizacije registracije i prijave, implementirao sam funkcionalnosti vezane uz rad sustava kao što
+                    su straničenje, pretraživanje, virtualno vrijeme itd. da bih nakon toga prešao na realizaciju glavne
+                    teme projektnog zadatka, tj. funkcionalnosti vezane uz sustav za nadzor nad režijama.</p>
+                    <h3>ERA model</h3>
+                    <a href="img/era.png" title="ERA model" target="_blank">
+                        <img src="img/era.png" alt="ERA model" width="200" height="200">
+                    </a>
+                    <h3>Navigacijski dijagram</h3>
+                    <a href="img/navigacijski.jpg" title="Navigacijski dijagram" target="_blank">
+                        <img src="img/navigacijski.jpg" alt="Navigacijski dijagram" width="200" height="200">
+                    </a>
+                    <h3>Popis i opis korištenih tehnologija i alata</h3>
+                    <ul>
+                        <li><b>HTML</b> - markup jezik koji služi za izradu strukture web stranice</li>
+                        <li><b>CSS</b> - stilski jezik koji služi za definiranje prezentacijskih svojstava web stranice</li>
+                        <li><b>Javascript</b> - skriptni programski jezik koji se izvršava na korisničkoj strani u web pregledniku.</li>
+                        <li><b>PHP</b> - skriptni programski jezik koji se izvršava na poslužiteljskoj strani, a služi za izradu dinamičnih i interaktivnih web stranica</li>
+                        <li><b>NetBeans</b> - integrirano razvojno okruženje napisano u Java programskom jeziku</li>
+                        <li><b>phpMyAdmin</b> - besplatan alat napisan u PHP-u, a služi za rukovanje MySQL i MariaDB bazom podataka</li>
+                        <li><b>Smarty</b> - sustav predložaka napisan u PHP-u, a služi za razdvajanje programske logike od prezentacije</li>
+                    </ul>
+                    <h3>Popis i opis vanjskih modula/biblioteka</h3>
+                    <ul>
+                        <li><b>jQuery</b> - Javascript biblioteka namijenjena pojednostavljenju skriptiranja na klijentskoj strani</li>
+                        <li><b>jQuery UI</b> - biblioteka za jQuery korisničko sučelje</li>
+                    </ul>
+                    <h3>Pogreške u radu</h3>
+                    <ul>
+                        <li>pogreška kod učitavanja Google mapa za prikaz adresa poslovnica</li>
+                        <li>pogreška kod prikaza statistike pomoću canvas-a</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <address>Kontakt: <a href="mailto:gabilic@foi.hr">Gabriel Ilić</a></address>
+            <p>&copy; 2016 G.Ilić</p>
+        </footer>
+    </body>
+</html>

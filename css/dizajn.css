@@ -1,0 +1,215 @@
+body {
+    background-color: #0D2839;
+    color: #BEE3F1;
+}
+
+header {
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+}
+
+a:link, a:visited {
+    color: #7EF000;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-family: Arial;
+}
+
+.cl {
+    clear: both;
+}
+
+#forma {
+    margin: 5px;
+    padding: 5px;
+    line-height: 30px;
+}
+
+.razmak {
+    line-height: 60px;
+}
+
+#nav {
+    float: left;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li a:link, #nav ul li a:visited {
+    display: block;
+    background-color: #121D21;
+    font-family: Arial;
+    color: #00AEF1;
+    padding: 11px 23px;
+    text-align: center;
+}
+
+#nav ul li a:hover, #nav ul li a:active {
+    display: block;
+    background-color: #090E10;
+    text-decoration: none;
+}
+
+.blok1 {
+    margin: 0 auto 5% auto;
+    padding: 15px 25px;
+    line-height: 25px;
+    background-color: #080D0F;
+    overflow: auto;
+}
+
+#container {
+    margin: auto;
+    width: 85%;
+    background-color: #121D21;
+    position: relative;
+}
+
+.prij_reg_odj {
+    display: inline-block;
+    margin: 2% auto 0 auto;
+    background-color: #121D21;
+    font-family: Arial;
+    color: #00AEF1;
+    padding: 11px 23px;
+    text-align: center;
+    float: right;
+    width: 7%;
+}
+
+.prij_reg_odj:hover {
+    background-color: #090E10;
+    text-decoration: none;
+}
+
+#button_container {
+    text-align: right;
+    width: 92.5%;
+    overflow: hidden;
+}
+
+#radio1 {
+    float: left;
+}
+
+#radio2 {
+    overflow: hidden;
+}
+
+.l {
+    color: #4DCCFF;
+}
+
+.polje {
+    background-color: #CCCCCC;
+    color: #00374D;
+    font-family: Verdana;
+    -webkit-transition: 500ms all ease;
+    -moz-transition: 500ms all ease;
+    -o-transition: 500ms all ease;
+    transition: 500ms all ease;
+    border: 2px solid #CCCCCC;
+}
+
+.polje:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #FFFFFF;
+}
+
+.polje_tocno {
+    background-color: #83C985;
+    color: #000000;
+    font-family: Verdana;
+    -webkit-transition: 500ms all ease;
+    -moz-transition: 500ms all ease;
+    -o-transition: 500ms all ease;
+    transition: 500ms all ease;
+    border: 2px solid #83C985;
+}
+
+.polje_tocno:hover {
+    background-color: #B8E0B9;
+    color: #000000;
+    border: 2px solid #B8E0B9;
+}
+
+.polje_netocno {
+    background-color: #FFFFFF;
+    color: #CC0000;
+    font-family: Verdana;
+    -webkit-transition: 500ms all ease;
+    -moz-transition: 500ms all ease;
+    -o-transition: 500ms all ease;
+    transition: 500ms all ease;
+    border: 2px solid #CC0000;
+}
+
+.polje_netocno:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #FF6666;
+}
+
+.fokus {
+    background-color: #99E2FF;
+    border-color: #99E2FF;
+}
+
+.fokus:hover {
+    background-color: #99E2FF;
+    border-color: #99E2FF;
+}
+
+#ime_reg {
+    float: left;
+}
+
+#ime_zauzeto {
+    float: left;
+    margin-left: 2%;
+    color: #FF6666;
+}
+
+#email_reg {
+    float: left;
+}
+
+#email_zauzet {
+    float: left;
+    margin-left: 2%;
+    color: #FF6666;
+}
+
+#f {
+    position: relative;
+    left: 0;
+}
+
+table, td, th {
+    border: 1px solid gray;
+    font-size: 11pt;
+    -webkit-transition: 500ms all ease;
+    -moz-transition: 500ms all ease;
+    -o-transition: 500ms all ease;
+    transition: 500ms all ease;
+}
+
+td:hover, th:hover {
+    background-color: #00374D;
+    color: #FFFFFF;
+}
